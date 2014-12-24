@@ -1,0 +1,9 @@
+<div class="list card" ng-repeat="message in messages track by $index">
+    <ion-item class="item item-image">
+        <img ng-src="{{ message.image }}" alt=""/>
+    </ion-item>
+    <ion-item class="item item-avatar" >
+        <img ng-src="{{ message.image }}" alt=""/>
+        <h2>{{ message.sender }}</h2>
+    </ion-item>
+</div>
